@@ -1,4 +1,5 @@
-# concept: decorator
+# concept: decorator is a python feature that
+# lets you modify a function using @ symbol
 def my_decorator(func):
     def wrapper():
         print("Befor")
