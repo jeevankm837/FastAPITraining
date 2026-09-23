@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.venv
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# FastAPI / Uvicorn / Application Logs
+*.log
+logs/
+openapi.json
+
+# Local Databases (SQLite, etc.)
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Project Dependencies / Package Managers
+# (Uncomment Pipfile.lock or poetry.lock only if you explicitly choose not to version lock them)
+# Pipfile.lock
+# poetry.lock
+.pypirc
+
+# Testing & Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
